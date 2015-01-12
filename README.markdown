@@ -1,8 +1,10 @@
-# monty41417
+# C414-547073
 
 An elliptic curve over the prime field Fq(2^414-17) with cofactor h=4,
 and twist cofactor h'=h. It has (perhaps) minimal values for Montgomery
-form `A` and Bernstein-Lange-Edwards (`a=-1`) form `d0`. See 
+form `A` and Bernstein-Lange-Edwards (`a=-1`) form `d0`.
+
+Please call this curve (isogeny class) C414-547072.
 
 No safety conditions from [SafeCurves][safecurves] yet verified besides
 twist-security.
