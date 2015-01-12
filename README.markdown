@@ -1,17 +1,21 @@
 # C414Legend-547072, or HamburgPort
 
-An elliptic curve over the prime field Fq(2^414-17) with cofactor h=4,
-and twist cofactor h'=h. It has (perhaps) minimal values for Montgomery
+An elliptic curve over the prime field `Fq(2^414-17)` with cofactor `h=4`,
+and twist cofactor `h'=h`. It has (perhaps) minimal values for Montgomery
 form `A` and Bernstein-Lange-Edwards (`a=-1`) form `d0`.
-
-Please call this curve (isogeny class) C414Legend-547072.
 
 No safety conditions from [SafeCurves][safecurves] yet verified besides
 twist-security.
 
+Please call this isogeny class *C414Legend-547072*, and specify the map
+used from the twisted BLE form. (You will likely want to actually use
+the twist, which has positive trace, and for which `d0=-547072`, as
+Robert Ransom has pointed out.)
+
 Many thanks to Robert Ransom for his help and advice. As Michael Hamburg
 has pointed out, this curve was likely already [found][silent], but not
-published, by djb.
+published, by djb. Michael Hamburg also found this curve earlier, but
+also did not publish it. (Private communication.)
 
 The curve parameters:
 
@@ -31,7 +35,7 @@ Or, more conveniently:
 
 ## Isogenous complete Edwards curve
 
-The corresponding Legendre curve has parameter `d=547073`; [Hamburg][hamburg]
+The corresponding Legendre curve has parameter `d=-547072`; [Hamburg][hamburg]
 notes the applicability of an isogeny derived in [Ahmadi & Granger][isogenies],
 from which a complete Edwards (`a=1`) curve with small `d` may be derived.
 (I still need to double-check I have the sign of that isogeny right...which
@@ -58,7 +62,7 @@ and the twist
 
 --
 
-[silent]: https://blog.silentcircle.com/2013/10/17/this-one-goes-to-414/ "This one goes to 414"
+[silent]: https://blog.silentcircle.com/this-one-goes-to-414/ "This one goes to 414"
 [hamburg]: http://eprint.iacr.org/2014/027 "Twisting Edwards curves with isogenies"
 [isogenies]: https://eprint.iacr.org/2011/135 "O Ahmadi, R Granger. On isogeny classes of Edwards curves over finite fields."
 [curve41417]: http://cr.yp.to/ecdh/curve41417-20140706.pdf "DJ Bernstein et al. Curve41417: Karatsuba revisited."
