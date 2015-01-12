@@ -1,13 +1,17 @@
-# C414-547073
+# C414Legend-547072, or HamburgPort
 
 An elliptic curve over the prime field Fq(2^414-17) with cofactor h=4,
 and twist cofactor h'=h. It has (perhaps) minimal values for Montgomery
 form `A` and Bernstein-Lange-Edwards (`a=-1`) form `d0`.
 
-Please call this curve (isogeny class) C414-547072.
+Please call this curve (isogeny class) C414Legend-547072.
 
 No safety conditions from [SafeCurves][safecurves] yet verified besides
 twist-security.
+
+Many thanks to Robert Ransom for his help and advice. As Michael Hamburg
+has pointed out, this curve was likely already [found][silent], but not
+published, by djb.
 
 The curve parameters:
 
@@ -54,6 +58,7 @@ and the twist
 
 --
 
+[silent]: https://blog.silentcircle.com/2013/10/17/this-one-goes-to-414/ "This one goes to 414"
 [hamburg]: http://eprint.iacr.org/2014/027 "Twisting Edwards curves with isogenies"
 [isogenies]: https://eprint.iacr.org/2011/135 "O Ahmadi, R Granger. On isogeny classes of Edwards curves over finite fields."
 [curve41417]: http://cr.yp.to/ecdh/curve41417-20140706.pdf "DJ Bernstein et al. Curve41417: Karatsuba revisited."
