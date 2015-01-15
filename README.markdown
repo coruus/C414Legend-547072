@@ -62,6 +62,22 @@ and the twist
 
 --
 
+## Legend-2188290
+
+The curve with Montgomery form parameter
+
+    A = -2188290
+
+has trace
+
+    -286272342413254687855263543685952049463534566303544198955217220
+
+and thus `h=h'=4`.
+
+
+
+
+
 [silent]: https://blog.silentcircle.com/this-one-goes-to-414/ "This one goes to 414"
 [hamburg]: http://eprint.iacr.org/2014/027 "Twisting Edwards curves with isogenies"
 [isogenies]: https://eprint.iacr.org/2011/135 "O Ahmadi, R Granger. On isogeny classes of Edwards curves over finite fields."
