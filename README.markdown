@@ -5,22 +5,6 @@ An elliptic curve over the prime field `Fq(2^414-17)` with cofactor `h=4`,
 and twist cofactor `h'=h`. It has minimal values for Montgomery form `A`
 and Bernstein-Lange-Edwards (`a=-1`) form `d0`.
 
-Please call this isogeny class *C414Legend-547072*, and specify the map
-used from the twisted BLE form. (You will likely want to actually use
-the twist, which has positive trace, for which `d0=-547072`, as Robert
-Ransom has pointed out.)
-
-Many thanks to Robert Ransom for his help and advice. And many thanks
-to Michael Hamburg for his useful patches to Pari. As Michael Hamburg
-has pointed out, this curve was likely already [found][silent], but not
-published, by Daniel Bernstein. Michael Hamburg also found this curve
-earlier, but also did not publish it. (Private communication.)
-
-The search technique used was that of [Bos et al.][nums].
-
-So far as I know, Robert Ransom was the first to verify the safety
-conditions.
-
 The finite field parameter:
 
     q   = 2^414 - 17
@@ -34,19 +18,24 @@ The trace of Frobenius:
 
     t = -286272342413254687855263543685952049463534566303544198955217220
 
-Or, in RFC-ish notation:
+Please call this isogeny class *C414Legend-547072*, and specify the map
+used from the twisted BLE form. (You will likely want to actually use
+the twist, which has positive trace, for which `d0=-547072`, as Robert
+Ransom has pointed out.)
 
-    q = 
-    3fffffff ffffffff ffffffff ffffffff
-    ffffffff ffffffff ffffffff ffffffff
-    ffffffff ffffffff ffffffff ffffffff
-    ffffffef
+--
 
-    trace = 
-    3fffffff ffffffff ffffffff ffffffff
-    ffffffff ffffffff ffff4dda 2f47fa6c
-    6f1d641e 1ea9da59 70716f8a 6fb68977
-    b7ccceab
+Many thanks to Michael Hamburg for his useful patches to Pari. And
+many thanks to Robert Ransom for his help, advice, and correction of
+numerous sign errors. :) The search technique is thanks to [Bos et al.][nums].
+
+As Michael Hamburg has pointed out, this curve was likely already
+[found][silent], but not published, by Daniel Bernstein. Michael
+Hamburg also found this curve earlier, but also did not publish it.
+(Private communication.)
+
+So far as I know, Robert Ransom was the first to factor the various
+quantities necessary to show the safety properties.
 
 ## Isogenous complete Edwards curve
 
@@ -120,7 +109,7 @@ has trace
 
     -286272342413254687855263543685952049463534566303544198955217220
 
-and thus `h=h'=4`.
+and thus `h=h'=4`. (Should Legend-547072 prove lacking.)
 
 
 [silent]: https://blog.silentcircle.com/this-one-goes-to-414/ "This one goes to 414"
