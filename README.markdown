@@ -1,4 +1,5 @@
-# C414Legend-547072, or HamburgPort, or HugeBikeshed
+# C414Legend-547072
+## or HamburgPort, or MegaBikeshed
 
 An elliptic curve over the prime field `Fq(2^414-17)` with cofactor `h=4`,
 and twist cofactor `h'=h`. It has minimal values for Montgomery form `A`
